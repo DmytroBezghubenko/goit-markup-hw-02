@@ -24,10 +24,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: #404BBF;
-    font-weight: 500;
-}
 
 a:active {
     color: #404BBF;
@@ -41,7 +37,9 @@ a:active {
 
 .header-nav {}
 
-.nav-logo {}
+.nav-logo {
+    color: #2E2F42;
+}
 
 .nav-logo>span {
     color: #4D5AE5;
