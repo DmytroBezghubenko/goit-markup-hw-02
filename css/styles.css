@@ -6,9 +6,7 @@ background-color: white;
  */
 
 
-a {
-    text-decoration: none;
-}
+
 
 li {
     list-style-type: none;
@@ -17,14 +15,27 @@ li {
 body {
     color: #434455;
     background-color: white;
-    font-family: Roboto;
-    line-height: 24px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #404BBF;
+    font-weight: 500;
+}
+
+a:active {
+    color: #404BBF;
+    font-weight: 500;
 }
 
 .header {
     color: #2E2F42;
-    font-style: normal;
     font-weight: 500;
 }
 
@@ -36,13 +47,23 @@ body {
     color: #4D5AE5;
 }
 
+.header-link {
+    color: #2E2F42;
+}
+
 .header-nav-list {}
 
 .header-nav-list-item {}
 
-.address {
+.address {}
+
+.socials-link {
     color: #434455;
-    letter-spacing: 0.02 em;
+}
+
+.socials-link:hover {
+    color: #404BBF;
+
 }
 
 .address-list {}
@@ -63,6 +84,7 @@ body {
     border-radius: 4px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .hero-button:hover {
@@ -110,7 +132,7 @@ body {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 2.5;
     text-transform: capitalize;
 }
 
