@@ -1,49 +1,145 @@
-body {
-    color: #434455;
-    font-size: 16px;
-}
+/* font-size: 16px;
+font-weight: 400;
+font-style: normal;
+color: black;
+background-color: white;
+ */
+
 
 a {
     text-decoration: none;
 }
 
-h2,
-h3 {
-    color: #2E2F42;
+li {
+    list-style-type: none;
 }
 
-h2 {}
-
-span {
-    color: #2E2F42;
+body {
+    color: #434455;
+    background-color: white;
+    font-family: Roboto;
+    line-height: 24px;
+    letter-spacing: 0.02em;
 }
 
-.logo {
+.header {
+    color: #2E2F42;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.header-nav {}
+
+.nav-logo {}
+
+.nav-logo>span {
     color: #4D5AE5;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
 }
+
+.header-nav-list {}
+
+.header-nav-list-item {}
+
+.address {
+    color: #434455;
+    letter-spacing: 0.02 em;
+}
+
+.address-list {}
+
+.address-list-item {}
 
 .herosection {
-    color: #FFFFFF;
-    background-color: #2E2F42;
+    background: #2E2F42;
 }
+
+.herosection>h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+}
+
+.hero-button {
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.hero-button:hover {
+    background: #404BBF;
+
+}
+
+.features {}
+
+.features-list {}
+
+.features-list-item {}
+
+.features-caption {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.features-desc {}
 
 .team {
     background-color: #F4F4FD;
 }
 
+.team-list {}
 
-footer {
-    color: #FFFFFF;
+.team-list-item>h3 {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.team-list-item>p {
+    text-align: center;
+}
+
+.team-list-photo {}
+
+.portfolio {}
+
+.portfolio-capture {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+.portfolio-list-item>h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.portfolio-list {}
+
+.portfolio-list-item {}
+
+.portfolio-photo {}
+
+.footer {
     background-color: #2E2F42;
 }
 
-footer .logo {
+.footer>.logo {
     color: #4D5AE5;
 }
 
-footer .logo span {
-    color: #FFFFFF;
+.footer>.logo>span {
+    color: #F4F4FD;
+}
+
+.footer-caption {
+    color: #F4F4FD;
+
 }
