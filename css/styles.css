@@ -80,6 +80,8 @@ a:active {
     background: #2E2F42;
 }
 
+class="portfolio-list-capture"
+
 .herosection>h1 {
     color: #FFF;
     text-align: center;
@@ -141,20 +143,32 @@ a:active {
 
 }
 
-.portfolio-capture {
+.portfolio-list-capture {
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 2.5;
+    text-transform: capitalize;
+}
+
+.portfolio-capture {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
     text-transform: capitalize;
 }
 
 .portfolio-list-item>h3 {
     color: #2E2F42;
     font-size: 20px;
-    font-weight: 500;
+    line-height: 1.2 font-weight: 500;
+    letter-spacing: 0.02em
+}
 
+.portfolio-list-desc {
+    line-height: 1.5;
 }
 
 .portfolio-list {}
