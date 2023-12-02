@@ -48,7 +48,11 @@ li {
     color: #2E2F42;
 }
 
-.header-nav-list {
+.header-nav-list {}
+
+.header-nav-list-item {}
+
+.header-link {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -56,15 +60,7 @@ li {
     letter-spacing: 0.02em;
 }
 
-.header-nav-list-item {}
-
-.header-link {}
-
 .address {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     font-style: normal;
 }
 
@@ -72,7 +68,12 @@ li {
 
 .address-list-item {}
 
-.socials-link {}
+.socials-link {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 
 
@@ -131,7 +132,6 @@ li {
 
 .features-desc {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -171,7 +171,6 @@ li {
 
 .team-desc {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -206,9 +205,7 @@ li {
 }
 
 .portfolio-list-desc {
-    color: #434455;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -237,7 +234,6 @@ li {
 .footer-caption {
     color: #F4F4FD;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
