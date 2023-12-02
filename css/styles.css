@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
+    background-color: #FFFFFF;
     /* Default values */
     /* font-size: 16px;
       font-weight: 400;
@@ -64,6 +65,7 @@ li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .address-list {}
@@ -86,6 +88,7 @@ li {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .hero-button {
@@ -145,13 +148,16 @@ li {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .team-list {}
 
-.team-list-item {}
+.team-list-item {
+    background-color: #FFFFFF;
+}
 
 .team-list-photo {}
 
@@ -180,8 +186,9 @@ li {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-list {}
